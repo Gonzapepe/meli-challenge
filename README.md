@@ -183,23 +183,8 @@ SQLITE_DB_PATH=data/audit.db
 
 ## 🐛 Troubleshooting
 
-### Database Issues
-```bash
-# Reset databases (WARNING: deletes all data)
-rm data/audit.db
-rm -rf data/vector_db/
-python scripts/setup_databases.py
-```
-
 ### API Rate Limits
 If you encounter rate limit errors with Voyage AI:
 - The setup script includes automatic retry logic with 30-second delays
 - For large document sets, setup may take several minutes
-
-## 📝 License
-
-This project was developed as part of the Mercado Libre AI Challenge.
-
----
-
-**Need help?** Check the [docs/](docs/) folder for detailed guides.
+- this can be avoided by adding credit card credentials to Voyage AI without spending money

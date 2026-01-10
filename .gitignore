@@ -1,0 +1,26 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector DB (generated)
+data/vector_db/*
+!data/vector_db/.gitkeep
+
+# Outputs (generated)
+outputs/results.json
+outputs/results.md
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+tests/

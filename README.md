@@ -165,7 +165,6 @@ Human-readable markdown with:
 | Document | Description |
 |----------|-------------|
 | [architecture.md](docs/architecture.md) | LangGraph workflow and system design |
-| [AUTO_SETUP_IMPLEMENTATION.md](docs/AUTO_SETUP_IMPLEMENTATION.md) | Automatic setup feature details |
 | [fixes_implemented.md](docs/fixes_implemented.md) | Recent bug fixes and improvements |
 
 ## 🔧 Advanced Configuration
